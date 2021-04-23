@@ -17,6 +17,16 @@ public:
 		iCurrentTick = 0;
 	}
 
+	int getCurrentTick ( )
+	{
+		return iCurrentTick;
+	}
+
+	void setCurrentTick ( const int newTick )
+	{
+		iCurrentTick = newTick;
+	}
+
 	void processCustomer ( Customer_t * customerRef )
 	{
 		if ( customerRef == nullptr || customerRef->getTransactionRef() == nullptr )

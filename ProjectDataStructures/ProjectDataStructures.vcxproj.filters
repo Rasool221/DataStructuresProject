@@ -32,5 +32,8 @@
     <ClInclude Include="BankTeller_t.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="BankService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

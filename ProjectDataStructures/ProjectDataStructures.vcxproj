@@ -142,6 +142,7 @@
     <ClCompile Include="ProjectDataStructures.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BankService.h" />
     <ClInclude Include="BankTeller_t.h" />
     <ClInclude Include="Customer_t.h" />
     <ClInclude Include="TransactionType.h" />
