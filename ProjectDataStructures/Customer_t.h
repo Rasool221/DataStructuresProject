@@ -28,7 +28,11 @@ public:
 		strLastName = lastName;
 
 		flCurrentBalance = currentBalance;
-		*currentTransaction = *curTransaction;
+
+		if ( curTransaction != nullptr )
+		{
+			*currentTransaction = *curTransaction;
+		}
 	}
 
 	std::string getFirstName ( )
